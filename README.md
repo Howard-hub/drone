@@ -19,6 +19,10 @@
     + 5.找到SERIAL?_PROTOCOL，值改成1，儲存
 + 4.開始測試
     + 測試前需要先禁用raspberry pi的藍芽 
+    ```py
+    nano /boot/config.txt
+    dtoverlay=disable-bt#添加在最後兩行
+    ```
     + mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
 
 
