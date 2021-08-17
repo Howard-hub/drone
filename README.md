@@ -18,6 +18,7 @@
     + 4.找到SERIAL?_BAUD這個參數(此參數為serial?的參數)，雙擊數值欄位，改成57(代表57600)
     + 5.找到SERIAL?_PROTOCOL，值改成1，儲存
 + 4.開始測試
+    + 測試前需要先禁用raspberry pi的藍芽 
     + mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
 
 
