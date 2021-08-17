@@ -16,7 +16,7 @@
     + 2.選擇COM?，然後以115200連接
     + 3.等載入完設定，選擇上方的"配置/測試"，點選左側的"Full Parameter List"
     + 4.找到SERIAL?_BAUD這個參數(此參數為serial?的參數)，雙擊數值欄位，改成57(代表57600)
-    + 5.5.找到SERIAL?_PROTOCOL，值改成1，儲存
+    + 5.找到SERIAL?_PROTOCOL，值改成1，儲存
 + 4.開始測試
     + mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
 
