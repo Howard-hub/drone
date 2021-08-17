@@ -11,7 +11,7 @@
 + 2.連接Raspberry Pi 4和mini Pixhawk4
     ![Alt text](image/RaspberryPi_Pixhawk_wiring1.jpg)
     + 注意! 當Raspberry Pi 4是額外接穩定的5V電源時，千萬不要再接上圖的紅線，會燒掉
-+ 3. D.設定Pixhawk
++ 3.D.設定Pixhawk
     + 1.電腦開啟Mission Planner，透過USB to Micro USB接上mini Pixhawk4
     + 2.選擇COM?，然後以115200連接
     + 3.等載入完設定，選擇上方的"配置/測試"，點選左側的"Full Parameter List"
