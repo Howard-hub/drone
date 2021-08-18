@@ -2,7 +2,7 @@
 
 ## 使用Mavlink協議令raspberry pi4和mini pixhawk4連接
 前置作業：在Raspberry Pi 4安裝好Raspbian OS
-+ 1.打開終端機，依序輸入下列指令
++ 1.打開終端機，依序輸入下列指令123
     + sudo apt-get update
     + sudo apt-get install screen python-wxgtk3.0 python-matplotlib python-opencv python-pip python-numpy python-dev libxml2-dev libxslt-dev
     + sudo pip install future
