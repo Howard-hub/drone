@@ -10,7 +10,9 @@
     + sudo pip install mavproxy 
 + 2.連接Raspberry Pi 4和mini Pixhawk4
     ![連接Raspberry Pi 3和Pixhawk](image/RaspberryPi_Pixhawk_wiring1.jpg)
-    + <font color=#FF0000>注意! 當Raspberry Pi 4是額外接穩定的5V電源時，千萬不要再接上圖的紅線，會燒掉</font>
+    ```diff
+    - 注意! 當Raspberry Pi 4是額外接穩定的5V電源時，千萬不要再接上圖的紅線，會燒掉
+    ```
 + 3.設定Pixhawk
     + 1.電腦開啟Mission Planner，透過USB to Micro USB接上mini Pixhawk4
     + 2.選擇COM?，然後以115200連接
