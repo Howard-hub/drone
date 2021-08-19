@@ -39,7 +39,25 @@
     ```py
     mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
     ```
-
+## 使用自己的python腳本運行
++ 在樹梅派上安裝Dronekit(原本使用apt-get來安裝，但發現執行腳本的時候會找不到dronekit的module，後來改採直接從github上clone下來安裝)
+```py
+1.git clone https://github.com/dronekit/dronekit-python.git
+```
+```py
+2.cd ./dronekit-python
+```
+```py
+3.sudo python setup.py build
+```
+```py
+4.sudo python setup.py install
+```
++ 在和dronekit-python相同目錄底下寫python腳本
++ 以mavlink通訊協議測試腳本運行
+```py
+python 腳本名.py --connect "/dev/ttyAMA0"
+```
 
 ## 參考資料
 網址:
