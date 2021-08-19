@@ -2,12 +2,22 @@
 
 ## 使用Mavlink協議令raspberry pi4和mini pixhawk4連接
 前置作業：在Raspberry Pi 4安裝好Raspbian OS
-+ 1.打開終端機，依序輸入下列指令123
-    + sudo apt-get update
-    + sudo apt-get install screen python-wxgtk3.0 python-matplotlib python-opencv python-pip python-numpy python-dev libxml2-dev libxslt-dev
-    + sudo pip install future
-    + sudo pip install pymavlink
-    + sudo pip install mavproxy 
++ 1.打開終端機，依序輸入下列指令
+    ```py
+    1.sudo apt-get update
+    ```
+    ```py
+    2.sudo apt-get install screen python-wxgtk3.0 python-matplotlib python-opencv python-pip python-numpy python-dev libxml2-dev libxslt-dev
+    ```
+    ```py
+    3.sudo pip install future
+    ```
+    ```py
+    4.sudo pip install pymavlink
+    ```
+    ```py
+    5.sudo pip install mavproxy
+    ``` 
 + 2.連接Raspberry Pi 4和mini Pixhawk4
     ![連接Raspberry Pi 3和Pixhawk](image/RaspberryPi_Pixhawk_wiring1.jpg)
     ```diff
@@ -25,8 +35,10 @@
     nano /boot/config.txt
     dtoverlay=disable-bt#添加在最後兩行
     ```
-    + mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
-
+    + 測試指令
+    ```py
+    mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
+    ```
 
 
 ## 參考資料
