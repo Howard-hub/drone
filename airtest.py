@@ -18,9 +18,9 @@ while(1):
     print"star armed"
     
     print "Autopilot Firmware version: %s" % vehicle.version
-
+    #顯示autopilot版本
     print "Global Location: %s" % vehicle.location.global_frame
-
+    #全球衛星定位系統
     print "Global Location (relative altitude): %s" % vehicle.location.global_relative_frame
 
     print "Local Location: %s" % vehicle.location.local_frame
@@ -28,7 +28,7 @@ while(1):
     print "Attitude: %s" % vehicle.attitude
 
     print "Velocity: %s" % vehicle.velocity
-
+    #速度
     print "GPS: %s" % vehicle.gps_0
 
     print "Groundspeed: %s" % vehicle.groundspeed
