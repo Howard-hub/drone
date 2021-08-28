@@ -30,7 +30,7 @@ while(1):
     print "Velocity: %s" % vehicle.velocity
     #速度
     print "GPS: %s" % vehicle.gps_0
-
+    #gps資訊
     print "Groundspeed: %s" % vehicle.groundspeed
 
     print "Airspeed: %s" % vehicle.airspeed
