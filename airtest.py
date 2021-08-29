@@ -54,6 +54,7 @@ while(1):
     print "Armed: %s" % vehicle.armed
     
     print("sleep 10 seconds.")
+    #休息10秒
     time.sleep(10)
     print"Armed off"
     print("printed after 10 seconds.")
